@@ -14,6 +14,7 @@ import {
   node,
   sortPackageJson,
   sortTsconfig,
+  standard,
   stylistic,
   test,
   typescript,
@@ -70,8 +71,7 @@ export function antfu(options: OptionsConfig & FlatESLintConfigItem = {}, ...use
   // Base configs
   configs.push(
     ignores(),
-    javascript({
-      isInEditor,
+    standard({
       overrides: overrides.javascript,
     }),
     comments(),

@@ -1,13 +1,13 @@
 {
-  "name": "@antfu/eslint-config",
+  "name": "@vicente015/eslint-config",
   "type": "module",
-  "version": "1.0.0-beta.17",
+  "version": "0.0.1",
   "packageManager": "pnpm@8.8.0",
-  "description": "Anthony's ESLint config",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "description": "ESLint config",
+  "author": "Vicente015 <me@vicente015.dev> (https://github.com/vicente015/)",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "funding": "https://github.com/sponsors/vicente015",
+  "homepage": "https://github.com/vicente015/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -41,6 +41,7 @@
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "eslint-config-flat-gitignore": "^0.1.0",
+    "eslint-config-standard-with-typescript": "^39.1.0",
     "eslint-define-config": "^1.23.0",
     "eslint-plugin-antfu": "^1.0.0-beta.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
